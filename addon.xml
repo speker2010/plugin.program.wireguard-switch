@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.wireguard-switch" name="Wireguard switch" version="0.0.1" provider-name="speker">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>program</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Plugin for toggle vpn connection with sh scripts</summary>
+    <description lang="en_GB">Plugin for toggle vpn connection with sh scripts</description>
+    <disclaimer lang="en_GB"></disclaimer>
+    <platform>all</platform>
+    <license>GNU General Public License v3.0</license>
+    <source>https://github.com/speker2010/plugin.program.wireguard-switch</source>
+		<news>
+			v.0.0.1 -initial
+		</news>
+    <assets>
+        <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
