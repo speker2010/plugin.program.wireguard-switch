@@ -4,7 +4,7 @@
     <import addon="xbmc.python" version="3.0.0" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>program</provides>
+    <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Plugin for toggle vpn connection with sh scripts</summary>
